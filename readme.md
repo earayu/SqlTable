@@ -10,8 +10,8 @@ step 1: init transactions with class Trx
 
 step 2: define sql table, it will be executed row by row
 [
-	['use db7',								'use db7'							],
-	['select version()',					'select version()'					],
+	['use db7',				'use db7'				],
+	['select version()',			'select version()'			],
 	['update t1 set c2 = 1 where c1 = 1', 	'update t2 set c2 = 1 where c1 = 1'	],
 	['update t2 set c2 = 1 where c1 = 1', 	'update t1 set c2 = 1 where c1 = 1'	]
 ]
